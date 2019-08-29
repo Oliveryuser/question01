@@ -163,8 +163,8 @@
     <artifactId>javax.annotation-api</artifactId>
     <version>1.2</version>
 </dependency>
-
-<dependency>
+ 
+<dependency> 
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
       <version>1</version>
@@ -198,7 +198,7 @@
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>4.1.0</version>
-</dependency>
+</dependency> 
              <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -208,4 +208,4 @@
   <build>
     <finalName>test1</finalName>
   </build>
-</project>
+</project>  
