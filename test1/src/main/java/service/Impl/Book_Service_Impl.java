@@ -13,13 +13,23 @@ public class Book_Service_Impl implements Book_Service{
 @Autowired
 Book_Dao dao;
 	public List<Book> select(String txt) {
-		// TODO Auto-generated method stub
 		return dao.select(txt);
 	}
 
 	public Book selectById(int id) {
-		// TODO Auto-generated method stub
 		return dao.selectById(id);
+	}
+	
+	public void delete(int id) {
+		dao.delete(id);
+	}
+	
+	public void update(Book t) {
+		dao.update(t);
+	}
+	
+	public void insert(Book t) {
+		dao.insert(t);
 	}
 
 }
