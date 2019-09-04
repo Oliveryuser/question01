@@ -23,8 +23,8 @@
 	</c:if>
 	<c:if test="${info!=null}">
 		<form action="update" method="post">
-			<input name="id" type="hidden" value="${info.id}"> <input
-				name="name" value="${info.name}"> <select name="sex">
+			<input name="id" type="hidden" value="${info.id}">
+				 <input name="name" value="${info.name}"> <select name="sex">
 				<c:forEach items="${sexs}" var="r" varStatus="v">
 					<c:if test="${info.sex!=v.index}">
 						<option value="${v.index}">${r}</option>
